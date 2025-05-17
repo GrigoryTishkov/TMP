@@ -23,7 +23,7 @@
 
 **Цель:** определить ключевые компоненты информационной системы склада и их взаимосвязи.
 
-[Диаграмма компонентов](diagrams/practice1/components.puml)
+[Диаграмма компонентов](diagrams/practice1/components.plantuml)
 
 Краткое описание:
 - Основной компонент — «Информационная система».
@@ -35,9 +35,9 @@
 
 **Цель:** описать взаимодействие пользователя с системой и внутреннюю структуру сущностей склада.
 
-[Use Case](diagrams/practice2/use_case.puml)
-[Классы](diagrams/practice2/class_diagram.puml)
-[Последовательность](diagrams/practice2/sequence_diagram.puml)
+[Use Case](diagrams/practice2/use_case.plantuml)
+[Классы](diagrams/practice2/class_diagram.plantuml)
+[Последовательность](diagrams/practice2/sequence_diagram.plantuml)
 
 Краткое содержание:
 - Пользователь взаимодействует с тремя основными функциями.
@@ -50,10 +50,10 @@
 
 **Цель:** расширение модели с учетом бизнес-процессов и структуры развёртывания системы.
 
-[Use Case (Работник)](diagrams/practice3/use_case_worker.puml)  
-[Классы](diagrams/practice3/class_diagram.puml)  
-[Последовательность](diagrams/practice3/sequence_diagram.puml)  
-[Развёртывание](diagrams/practice3/deployment_diagram.puml)
+[Use Case (Работник)](diagrams/practice3/use_case_worker.plantuml)  
+[Классы](diagrams/practice3/class_diagram.plantuml)  
+[Последовательность](diagrams/practice3/sequence_diagram.plantuml)  
+[Развёртывание](diagrams/practice3/deployment_diagram.plantuml)
 
 Краткое содержание:
 - Используется аналогичная структура, но с субъектом "Работник".
