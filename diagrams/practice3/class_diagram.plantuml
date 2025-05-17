@@ -1,0 +1,24 @@
+@startuml
+
+package "Информационная система склада" {
+    class Склад {
+        + addProduct()
+        + removeProduct()
+    }
+
+    class Товар {
+        - id : int
+        - name : string
+        - quantity : int
+    }
+
+    class МестоХранения {
+        - id : int
+        - location : string
+    }
+
+    Склад "1" *-- "n" Товар : содержит
+    Товар "1" -- "1" МестоХранения : находится на
+}
+
+@enduml

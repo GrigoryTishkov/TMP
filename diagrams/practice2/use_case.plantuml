@@ -1,0 +1,14 @@
+@startuml
+allowmixing
+
+actor Пользователь
+rectangle "Информационная система склада" {
+    usecase "Учет поступления товаров" as incoming
+    usecase "Учет отгрузки товаров" as outgoing
+    usecase "Определение мест хранения товаров" as storage_location
+
+    Пользователь -- incoming
+    Пользователь -- outgoing
+    Пользователь -- storage_location
+}
+@enduml
